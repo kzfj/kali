@@ -191,3 +191,18 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     # change suggestion color
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
+
+
+
+
+#终端让vim显示颜色
+export TERM=xterm-color
+#ranger修改配置文件的环境变量
+export RANGER_LOAD_DEFAULT_RC=FALSE
+
+#终端快捷键
+alias ra=ranger
+alias s=screenfetch
+alias lg=lazygit
+alias gc=git-cola
+alias vim=nvim
